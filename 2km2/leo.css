@@ -1,0 +1,76 @@
+body {
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	font-size: 12px;
+}
+
+a img {
+	border: none;
+	margin-top: 15px;
+}
+
+A:link {
+	text-decoration: none;
+	color: grey;
+}
+
+A:visited {
+	text-decoration: none;
+	color: grey;
+}
+
+A:hover {
+	text-decoration: underline;
+}
+
+body {
+	padding: 20px;
+	text-align: left;
+	background: #ddd;
+}
+
+#header {
+	background: #ddd;
+	width: 100%;
+}
+
+#leftcol {
+	float: left;
+	width: 19%;
+	height: 80%;
+}
+
+#content {
+	float: right;
+	width: 80%;
+	height: 80%;
+}
+
+#mainImage {
+	float: right;
+	width: 80%;
+	height: 80%;
+}
+
+#content img {
+	float: left;
+	width: 100%;
+}
+
+#thumbs {
+	text-align: left;
+	background: #ddd;
+	clear: both;
+	width: 80%;
+	padding-left: 19%;
+	font-style: italic;
+}
+
+#footer {
+	text-align: right;
+	background: #ddd;
+	clear: both;
+	width: 80%;
+	padding-left: 19%;
+	font-style: italic;
+}
+
