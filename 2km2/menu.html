@@ -1,0 +1,42 @@
+// JavaScript equivalent of curPageName function
+function curPageName() {
+  const path = window.location.pathname;
+  return path.substring(path.lastIndexOf('/') + 1);
+}
+
+// Create links based on current page
+const curPage = curPageName();
+
+const indexLink = curPage === "index.html" ? "<u>home</u>" : "<a href='index.html'>home</a>";
+const forewordLink = curPage === "foreword.html" ? "<u>foreword</u>" : "<a href='foreword.html'>foreword</a>";
+const ch1Link = curPage === "initial.html" ? "initial 2km<sup>2</sup>" : "<a href='initial.html'>initial 2km<sup>2</sup></a>";
+const ch2Link = curPage === "monochrome.html" ? "b&w 2km<sup>2</sup>" : "<a href='monochrome.html'>b&w 2km<sup>2</sup></a>";
+const ch3Link = curPage === "2km.html" ? "2km<sup>2</sup>" : "<a href='2km.html'>2km<sup>2</sup></a>";
+const contactLink = curPage === "contact.html" ? "<u>contact</u>" : "<a href='contact.html'>contact</a>";
+
+// Append links to the table
+document.write(`
+  <table width="100%">
+    <tr>
+      <td>${indexLink}<br/><br/><br/></td>
+    </tr>  
+    <tr>
+      <td>${forewordLink}<br/><br/></td>
+    </tr>
+    <tr>
+      <td>${ch1Link}</td>
+    </tr>
+    <tr>
+      <td>${ch2Link}</td>
+    </tr>
+    <tr>
+      <td>${ch3Link}<br/><br/><br/><br/></td>
+    </tr>
+    <tr>
+      <td><a href='/'>LL Home</a></td>
+    </tr>
+    <tr>
+      <td>${contactLink}</td>
+    </tr>
+  </table>
+`);
