@@ -1,0 +1,179 @@
+<!-- temple/images.php -->
+<html>
+	<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Temple Monograph</title>
+		<link href="images.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.9.0.min.js"></script>
+    <script src="jquery.colorbox-min.js"></script>
+
+    <script>
+			$(document).ready(function(){
+        $(".grp1").colorbox({rel:'grp1', transition:"none", width:"75%", height:"100%"});
+        $(".grp2").colorbox({rel:'grp2', transition:"none", width:"75%", height:"100%"});
+        $(".grp3").colorbox({rel:'grp3', transition:"none", width:"75%", height:"100%"});
+        $(".grp4").colorbox({rel:'grp4', transition:"none", width:"75%", height:"100%"});
+        $(".grp5").colorbox({rel:'grp5', transition:"none", width:"75%", height:"100%"});
+        $(".grp6").colorbox({rel:'grp6', transition:"none", width:"75%", height:"100%"});
+        $(".grp7").colorbox({rel:'grp7', transition:"none", width:"75%", height:"100%"});
+			});
+
+      function showDiv(element){
+
+        var textDiv = document.getElementById("g0");
+        textDiv.style.display = 'none';
+                                      
+        for (var i = 1; i < 8; i++){
+          var hide = document.getElementById("g" + i);
+          hide.style.display = 'none';
+        }
+
+        var field = document.getElementById(element);
+        if (element) {
+          field.style.display = 'block';
+        }
+      }
+		</script>
+
+	</head>
+
+	<body>
+
+  		<div style="width:20%;height:500px;float:left;" id="menus">
+
+        <div style="padding-left:20px;" class="lightblue">Before Temple</div>
+        <a class="menulink" href="#" onclick="javascirpt:showDiv('g1')">Belgium To Egypt</a>
+        <br>
+        <a class="menulink" href="#" onclick="javascirpt:showDiv('g2')">First Signs</a>
+        <br>
+        <a class="menulink" href="#" onclick="javascirpt:showDiv('g3')">Lewis Baltz Parallel</a>
+        <br>
+        <a class="menulink" href="#" onclick="javascirpt:showDiv('g4')">Newhaven Ind. Park</a>
+        <br>
+        <a class="menulink" href="#" onclick="javascirpt:showDiv('g5')">Seaford Bay Series</a>
+        <br><br>
+        <div style="padding-left:20px;" class="lightblue">Temple &amp; After</div>
+        <a class="menulink" href="#" onclick="javascirpt:showDiv('g6')">Temple</a>
+        <br>
+        <a class="menulink" href="#" onclick="javascirpt:showDiv('g7')">Two Images</a>
+
+      <p class="pos_fixed">
+      <u style='color:#FFFFFF'>Gallery</u>
+      <br>
+      <a class='menulink' href='words.php'>Text</a>
+      <br>
+      <a class='menulink' href='contact.php'>Contact</a>
+      <br>
+      <a class='menulink' href='index.php'>TempleM</a>
+      <br/>
+      <a class='menulink' href='/'>Leo Lazic</a>
+      <br>
+      <br>
+      </p>
+		</div>
+    <!-- End div leftcol -->
+
+ 		<div id="g0" class="clickonthewhitetitles" style="width:70%;height:500px;float:left;">
+     <<<  CLICK ON THE WHITE TITLES ON THE LEFT TO VIEW IMAGES</td>
+		</div>
+
+
+		<div id="g1" style="display:none">
+
+            <a class="grp1" href="images/Gallery/large/before_temple/01_belgium_to_egypt/01_1.jpg"><img style="position:relative; left:140px;" src="images/Gallery/small/before_temple/01_belgium_to_egypt/01_thm 1.jpg"/></a>
+
+            <a class="grp1" href="images/Gallery/large/before_temple/01_belgium_to_egypt/01_2.jpg"><img style="position:relative; left:180px;" src="images/Gallery/small/before_temple/01_belgium_to_egypt/01_thm 2.jpg"/></a>
+
+		</div>
+		
+    <div id="g2" style="display:none">
+      <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp2" href="images/Gallery/large/before_temple/02_first_signs/02_1.jpg"><img style="position:relative; left:260px;" src="images/Gallery/small/before_temple/02_first_signs/02_thm 1.jpg"/></a>
+      </div>
+      <div style="clear:right;" >
+            <a class="grp2" href="images/Gallery/large/before_temple/02_first_signs/02_2.jpg"><img style="position:relative; left:140px;" src="images/Gallery/small/before_temple/02_first_signs/02_thm 2.jpg"/></a>
+
+            <a class="grp2" href="images/Gallery/large/before_temple/02_first_signs/02_3.jpg"><img style="position:relative; left:180px;" src="images/Gallery/small/before_temple/02_first_signs/02_thm 3.jpg"/></a>
+      </div>
+      <div style="clear:right; margin-left:auto; margin-right:auto;"">
+            <a class="grp2" href="images/Gallery/large/before_temple/02_first_signs/02_4.jpg"><img src="images/Gallery/small/before_temple/02_first_signs/02_thm 4.jpg"/></a>
+
+            <a class="grp2" href="images/Gallery/large/before_temple/02_first_signs/02_5.jpg"><img src="images/Gallery/small/before_temple/02_first_signs/02_thm 5.jpg"/></a>
+
+            <a class="grp2" href="images/Gallery/large/before_temple/02_first_signs/02_6.jpg"><img src="images/Gallery/small/before_temple/02_first_signs/02_thm 6.jpg"/></a>
+      </div>
+		</div>
+
+		<div id="g3" style='display:none'>
+       <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp3" href="images/Gallery/large/before_temple/03_he_lewis_baltz_parallel/03_1.jpg"><img src="images/Gallery/small/before_temple/03_the_lewis_baltz_parallel/03_thm 1.jpg"/></a>
+
+            <a class="grp3" href="images/Gallery/large/before_temple/03_he_lewis_baltz_parallel/03_2.jpg"><img src="images/Gallery/small/before_temple/03_the_lewis_baltz_parallel/03_thm 2.jpg"/></a>
+
+            <a class="grp3" href="images/Gallery/large/before_temple/03_he_lewis_baltz_parallel/03_3.jpg"><img src="images/Gallery/small/before_temple/03_the_lewis_baltz_parallel/03_thm 3.jpg"/></a>
+       </div>
+       <div style="clear:right;" >
+            <a class="grp3" href="images/Gallery/large/before_temple/03_he_lewis_baltz_parallel/03_4.jpg"><img style="position:relative; left:520px;" src="images/Gallery/small/before_temple/03_the_lewis_baltz_parallel/03_thm 4.jpg"/></a>
+      </div>
+      <div style="clear:right;" >
+            <a class="grp3" href="images/Gallery/large/before_temple/03_he_lewis_baltz_parallel/03_5.jpg"><img src="images/Gallery/small/before_temple/03_the_lewis_baltz_parallel/03_thm 5.jpg"/></a>
+      </div>
+		</div>
+		
+
+		<div id="g4" style='display:none'>
+      <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp4" href="images/Gallery/large/before_temple/04_seaford_bay_series/04_1.jpg"><img style="position:relative; left:130px;" src="images/Gallery/small/before_temple/04_seaford_bay_series/04_thm 1.jpg"/></a>
+
+            <a class="grp4" href="images/Gallery/large/before_temple/04_seaford_bay_series/04_2.jpg"><img style="position:relative; left:160px;" src="images/Gallery/small/before_temple/04_seaford_bay_series/04_thm 2.jpg"/></a>
+      </div>
+      <div style="clear:right;" >
+            <a class="grp4" href="images/Gallery/large/before_temple/04_seaford_bay_series/04_3.jpg"><img src="images/Gallery/small/before_temple/04_seaford_bay_series/04_thm 3.jpg"/></a>
+
+            <a class="grp4" href="images/Gallery/large/before_temple/04_seaford_bay_series/04_4.jpg"><img src="images/Gallery/small/before_temple/04_seaford_bay_series/04_thm 4.jpg"/></a>
+
+            <a class="grp4" href="images/Gallery/large/before_temple/04_seaford_bay_series/04_5.jpg"><img src="images/Gallery/small/before_temple/04_seaford_bay_series/04_thm 5.jpg"/></a>
+      </div>
+		</div>
+		<div id="g5" style='display:none'>
+      <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp5" href="images/Gallery/large/before_temple/05_newhaven_industrial_park/05_1.jpg"><img style="position:relative; left:140px;" src="images/Gallery/small/before_temple/05_newhaven_industrial_park/05_thm 1.jpg"/></a>
+
+            <a class="grp5" href="images/Gallery/large/before_temple/05_newhaven_industrial_park/05_2.jpg"><img style="position:relative; left:180px;" src="images/Gallery/small/before_temple/05_newhaven_industrial_park/05_thm 2.jpg"/></a>
+      </div>
+      <div style="clear:right;" >
+            <a class="grp5" href="images/Gallery/large/before_temple/05_newhaven_industrial_park/05_3.jpg"><img style="position:relative; left:140px;" src="images/Gallery/small/before_temple/05_newhaven_industrial_park/05_thm 3.jpg"/></a>
+
+            <a class="grp5" href="images/Gallery/large/before_temple/05_newhaven_industrial_park/05_4.jpg"><img style="position:relative; left:180px;" src="images/Gallery/small/before_temple/05_newhaven_industrial_park/05_thm 4.jpg"/></a>
+      </div>
+		</div>
+
+    <div id="g6" style='display:none'>
+         <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_1.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 1.jpg"/></a>
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_2.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 2.jpg"/></a>
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_3.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 3.jpg"/></a>
+        </div>
+        <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_4.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 4.jpg"/></a>
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_5.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 5.jpg"/></a>
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_6.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 6.jpg"/></a>
+        </div>
+        <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_7.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 7.jpg"/></a>
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_8.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 8.jpg"/></a>
+            <a class="grp6" href="images/Gallery/large/temple_and_after/06_the_temple/06_9.jpg"><img src="images/Gallery/small/temple_and_after/06_the_temple/06_thm 9.jpg"/></a>
+        </div>
+		</div>
+		
+		<div id="g7" style='display:none'>
+      <div style="margin-left:auto; margin-right:auto;"">
+            <a class="grp7" href="images/Gallery/large/temple_and_after/07_the_two_images/07_1.jpg"><img style="position:relative; left:260px;" src="images/Gallery/small/temple_and_after/07_the_two_images/07_thm 1.jpg"/></a>
+      </div>
+      <div style="clear:right;" >
+            <a class="grp7" href="images/Gallery/large/temple_and_after/07_the_two_images/07_2.jpg"><img style="position:relative; left:260px;" src="images/Gallery/small/temple_and_after/07_the_two_images/07_thm 2.jpg"/></a>
+
+		</div>
+		
+	</body>
+</html>
