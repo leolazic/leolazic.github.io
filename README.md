@@ -1,9 +1,56 @@
-# leolazic.github.io
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Leo Lazic</title>
+		<link href="2km2/leo.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico">
+	</head>
 
-This will be my new web site
-Status: working on it - alex
+	<body>
+		<div id="content">
+      <table>
+        <tr>
+          <td>
+            <a href="/temple" target=”_blank”><img src="home_1.jpg" /></a>
+          </td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>
+          <div style="margin-top:80px">
+            <a href="/temple" target=”_blank”>Temple Monograph</a>
+            </div>
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <a href="/2km2" target=”_blank”><img src="home_2.jpg" /></a>
+          </td>
+          <td></td>
+          <td>  
+          <div style="margin-top:80px">
+            <a href="/2km2" target=”_blank”>2km<sup>2</sup></a>
+            </div>
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <a href="/qasr" target=”_blank”><img src="home_3.jpg" /></a>
+          </td>
+          <td></td>
+          <td>  
+          <div style="margin-top:80px">
+            <a href="/qasr" target=”_blank”>Qasr Singularities</a>
+            </div>
+          </td>
+          </tr>
+          <td>
+            <br/>
+            &copy; Leo Lazic
+          </td>
+          </tr>
+      </table>
+  	</div>
 
-
-<img src="leo-2.png">
-
+	</body>
+</html>
 
